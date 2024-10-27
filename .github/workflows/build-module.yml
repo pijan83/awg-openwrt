@@ -17,16 +17,6 @@ jobs:
             target: ath79
             subtarget: generic
             vermagic: "85703b998fa54b6f2c1131f83b0a7d11"
-          - tag: "22.03.5"
-            pkgarch: mips_24kc
-            target: ath79
-            subtarget: generic
-            vermagic: "85703b998fa54b6f2c1131f83b0a7d11"
-          - tag: "22.03.5"
-            pkgarch: mips_24kc
-            target: ath79
-            subtarget: generic
-            vermagic: "85703b998fa54b6f2c1131f83b0a7d11"
 
     steps:
       - uses: actions/checkout@v4
